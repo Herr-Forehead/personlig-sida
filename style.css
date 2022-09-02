@@ -1,0 +1,34 @@
+body {
+    background-color: azure;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+header {
+    color: crimson;
+    font-size: 38px;
+    text-align: center;
+}
+
+article {
+
+}
+
+nav {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+footer {
+    color: rgb(65, 102, 245);
+}
+
+h5 {
+    color: royalblue;
+}
